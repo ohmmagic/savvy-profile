@@ -1,7 +1,7 @@
-# ohm's Haiku
+# Ohm's Haiku
 
-jim runs fastly thus
+*jim runs fastly thus*
 
-jen crushes jim with gusto
+**jen crushes jim with gusto**
 
-love controls us all
+***love controls us all***
