@@ -1,10 +1,60 @@
 
-  body{background-color: chartruese;}
+li:first-child {
+  // applies to the first list item of every list
+  color: purple;
+}
+html{
+  box-sizing: border-box;
+}
+div.container{
+
+  max-width: 750px;
+  margin: 10px auto;
+}
+.container p{
+  color: orange;
+}
+
+.header h1 + h6{
+  font-family: cursive;
+}
+
+div.navigation{
+
+  border: solid green;
+  background-color: black;
+}
+div.header{
+border: solid grey;
+background-color: blue;
+}
+
+div.content {
+  background-color: lightgrey;
+  border: solid red;
+  padding: 50px;
+  margin: 50px;
+}
+  body{
+    margin: 0;
+    border-right: green;
+    background-color: chartreuse;
+}
+
+
+
 .xtra-red {
    color :red;
  }
-h2 {color: green;}
-ul{background-color:blue;}
+ h1{
+   color : orange
+ }
+h2 {
+  color: green;
+}
+ul{
+  background-color:cornflowerblue;
+}
 
 #subheader{
 font-style: oblique;
