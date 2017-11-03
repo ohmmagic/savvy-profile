@@ -15,16 +15,46 @@ div.container{
   color: orange;
 }
 
-.header h1 + h6{
+.header h1 + h6{display: inline;
   font-family: cursive;
 }
 
 div.navigation{
-
+  width: 100vw;
   border: solid green;
   background-color: black;
+  position: fixed;
+  text-align: center;
+  top:0;
+  right:0;
+
+
 }
+.navigation > ul >li{
+display: inline;
+margin: 5px;
+position: relative;
+}
+.navigation > ul > li:hover {
+  background-color: chocolate;
+}
+.navigation .dropdown {
+  position: absolute;
+  top: 20;
+  right: 0;
+  display: none;
+  padding: 25px;
+
+}
+.navigation a:hover + .dropdown ,
+.navigation .dropdown:hover {
+  display: block;
+}
+
+
+
 div.header{
+  margin-top: 50px;
 border: solid grey;
 background-color: blue;
 }
@@ -37,10 +67,34 @@ div.content {
 }
   body{
     margin: 0;
-    border-right: green;
+
     background-color: chartreuse;
 }
+#funky-list {
+background-color: tomato;
+}
 
+#funky-list > li:first-child {
+  color: firebrick;
+}
+#funky-list > li:last-child{
+  background-color: green;
+}
+#funky-list > li:nth-child(2) {
+  background-color: red;
+}
+
+#funky-list > li:nth-child(3n) {
+   background-color: cyan;
+}
+ #funky-list > li:nth-child(2n+1){
+    background-color: violet;
+ }
+
+
+  #funky-list  > li:hover {
+     background-color:  yellow;
+  }
 
 
 .xtra-red {
