@@ -19,6 +19,7 @@ div.container{
   font-family: cursive;
 }
 
+
 div.navigation{
   width: 100vw;
   border: solid green;
@@ -114,4 +115,9 @@ ul{
 font-style: oblique;
 color: brown;
 font-weight: 500;
+}
+
+
+input[type='text']{
+  background-color: red;
 }
